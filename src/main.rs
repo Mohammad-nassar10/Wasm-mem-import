@@ -61,6 +61,6 @@ pub fn wasmInstance(path1: &str, path2: &str) {
 }
 
 fn main() {
-    wasmInstance("../wasm-modules/allocator/target/wasm32-unknown-unknown/release/alloc.wasm", "../wasm-modules/transformation/target/wasm32-unknown-unknown/release/transformation.wasm");
+    wasmInstance("wasm-modules/alloc.wasm", "wasm-modules/transformation.wasm");
     println!("Hello, world!");
 }
